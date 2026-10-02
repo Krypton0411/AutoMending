@@ -1,0 +1,11 @@
+{
+    "itemGroup.auto_mending": "Auto Mending",
+
+    "_comment": "Mod Name",
+    "mod.auto_mending": "Auto Mending",
+
+    "_comment2": "Config (legacy keys kept for parity with the original release; the mod uses built-in constants)",
+    "auto_mending.config.title": "Auto Mending Config",
+    "auto_mending.config.xp_per_tick": "XP per tick",
+    "auto_mending.config.scan_interval": "Scan interval (ticks)"
+}
