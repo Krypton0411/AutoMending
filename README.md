@@ -33,10 +33,4 @@
 
 要求：JDK 17（本机位于 `D:\Programming languages\Java\Java17`）、Gradle 8.1.x。
 
-```powershell
-$env:JAVA_HOME = "D:\Programming languages\Java\Java17"
-$env:Path = "D:\Programming languages\Java\Java17\bin;$env:Path"
-.\gradlew.bat build
-```
-
 产物：`build/libs/auto-mending-1.19.2-1.0.2.jar`，放入 `.minecraft/mods/` 即可。
