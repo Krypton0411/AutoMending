@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="auto_mending"
+version="${file.jarVersion}"
+displayName="Auto Mending"
+logoFile="auto_mending.png"
+credits=""
+authors="krypton"
+description='''
+Automatically uses your experience to repair items with the Mending enchantment, including items inside shulker boxes.
+不再需要手动捡经验球，系统会自动消耗经验值修复带有经验修补附魔的物品，包括潜影盒内的物品。
+'''
+
+[[dependencies.auto_mending]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.auto_mending]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
