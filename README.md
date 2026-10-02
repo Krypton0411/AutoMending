@@ -41,10 +41,4 @@
 
 要求：JDK 21（本机位于 `D:\Programming languages\Java\Java21`）、Gradle 8.10.x（ModDevGradle 需要）。
 
-```powershell
-$env:JAVA_HOME = "D:\Programming languages\Java\Java21"
-$env:Path = "D:\Programming languages\Java\Java21\bin;$env:Path"
-gradle build
-```
-
 产物：`build/libs/auto-mending-1.21.1-1.0.2.jar`，放入 `.minecraft/mods/` 即可。
