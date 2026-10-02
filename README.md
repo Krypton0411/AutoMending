@@ -48,20 +48,6 @@ The complete, buildable Gradle projects live as plain files in version branches:
 
 - **Forge 1.20.1 / 1.19.2**：JDK 17 + Gradle 8.1.x
 
-```powershell
-$env:JAVA_HOME = "D:\Programming languages\Java\Java17"
-gradle build
-```
-
-- **NeoForge 1.21.1**：JDK 21 + Gradle 8.10.x（ModDevGradle）
-
-```powershell
-$env:JAVA_HOME = "D:\Programming languages\Java\Java21"
-gradle build
-```
-
-产物位于 `build/libs/` / Output lands in `build/libs/`.
-
 ## License
 
 MIT
