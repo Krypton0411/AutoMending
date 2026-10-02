@@ -1,0 +1,11 @@
+{
+    "itemGroup.auto_mending": "自动修复",
+
+    "_comment": "模组名称",
+    "mod.auto_mending": "自动经验修补",
+
+    "_comment2": "配置（与原版发布保持一致的历史键；模组使用内置常量）",
+    "auto_mending.config.title": "自动经验修补配置",
+    "auto_mending.config.xp_per_tick": "每 tick 消耗经验值",
+    "auto_mending.config.scan_interval": "扫描间隔（tick）"
+}
